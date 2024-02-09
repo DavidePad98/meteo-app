@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+li {
+  list-style: none;
+}
+.body {
+  /* height: 100%; */
+  background-color: #99f1ff;
+}
+
+.x {
+  background: #57e3ff;
+  background: -moz-linear-gradient(left, #57e3ff 0%, #ffed29 0%, #99f1ff 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #57e3ff 0%,
+    #ffed29 0%,
+    #99f1ff 100%
+  );
+  background: linear-gradient(to right, #57e3ff 0%, #ffed29 0%, #99f1ff 100%);
+}
+.b {
+  bottom: 10px;
+}
